@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UPI Sentinel – Digital Payment Fraud Detection System</title>
+  <meta name="description" content="UPI Sentinel screens UPI transactions and returns an explainable 0–100 risk score: Safe, Suspicious, or Potential Fraud." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e9b863' stroke-width='2'%3E%3Cpath d='M12 2l8 3v6c0 5-3.5 9.5-8 11-4.5-1.5-8-6-8-11V5z'/%3E%3Cpath d='M8.5 12l2.5 2.5 4.5-5'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#/home" class="brand" aria-label="UPI Sentinel home">
+        <svg class="brand-mark" viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 1.5l9 3.4v7.3c0 5.8-3.9 10.6-9 12.3-5.1-1.7-9-6.5-9-12.3V4.9z"/><path d="M8 13l3 3 5-6" stroke-linecap="round"/></svg>
+        <div>
+          <div class="brand-name">UPI <span>SENTINEL</span></div>
+          <div class="brand-sub">PAYMENT SECURITY SYSTEM</div>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks"></ul>
+      <div class="nav-actions" id="navActions"></div>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <div class="container container-narrow">
+      <div class="footer-top">
+        <div>
+          <a href="#/home" class="brand">
+            <svg class="brand-mark" style="width:24px;height:28px" viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 1.5l9 3.4v7.3c0 5.8-3.9 10.6-9 12.3-5.1-1.7-9-6.5-9-12.3V4.9z"/><path d="M8 13l3 3 5-6" stroke-linecap="round"/></svg>
+            <div class="brand-name" style="font-size:19px">UPI <span>SENTINEL</span></div>
+          </a>
+          <p class="muted small" style="margin-top:12px">A smarter checkpoint for your digital payments.</p>
+        </div>
+        <nav class="footer-links">
+          <a href="#/about">About the project</a>
+          <a href="#/features">Capabilities</a>
+          <a href="#/detect">Fraud detection</a>
+          <a href="#/contact">Contact ↗</a>
+        </nav>
+      </div>
+      <div class="copyright">© 2026 UPI Sentinel · Cybersecurity demonstration. Not a payment gateway.</div>
+    </div>
+  </footer>
+
+  <div class="toast-stack" id="toasts"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="js/engine.js?v=3"></script>
+  <script src="js/store.js?v=3"></script>
+  <script src="js/pages.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
+</body>
+</html>
